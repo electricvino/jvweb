@@ -26,5 +26,12 @@ namespace mySite.Controllers
 
             return View();
         }
+
+        public ActionResult Resume()
+        {
+            ViewBag.Message = "Jon's Resume.";
+
+            return View();
+        }
     }
 }
